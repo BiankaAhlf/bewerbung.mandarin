@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+   <meta name="viewport"content="width=device-width,initial-scale=1.0">
+  <title>Anschreiben | Bianka Ahlf</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link rel="stylesheet"href="bewerbung.css">
+</head>
+
+
+<body>
+
+ <section class="cv">
+
+  <header class="cv-header">
+   <div class="cv-left">
+    <h1>Bianka Ahlf</h1>
+    <p class="title">Berufliche orientierung im IT-Bereich</p>
+ </div>
+
+ <div class="contact-box">
+   <p><strong>Adresse:</strong> Blockmacherring 44,18109 Rostock</p>
+   <p><strong>Telefon:</strong> 015225476758</p>
+   <p><strong>E-Mail:</strong> ahlfb@web.de</p>
+  </div>
+ </div> 
+
+   <div class="cv-divider"></div>
+
+ <div class="anschreiben-section">
+  <h2 class="anschreiben-title">Anschreiben</h2>
+   <p><strong>Bewerbung um eine Praktikumsplatz im IT-Bereich</strong></p>
+  
+   <p>Sehr geehrte Damen und Herren,</p>
+
+   <p> Im Rahmen meiner aktuellen Maßnahme beim Berufsförderungswerk (BFW) Stralsund, außenstelle 
+in Rostock ist ein verpflichtendes Praktikum vorgesehen, das ich gerne in Ihrem Unternehmen
+absolvieren möchte. Auf Mandarin bin ich durch Ihre Website aufmerksam geworden - insbesondere
+Ihr moderner auftritt und Ihre Projekte im digitalen Bereich haben mich angesprochen.
+   </p>
+
+   <p> Ich strebe eine Umschulung zur IT-Systemelektronikerin an und habe dabei ein besonders Interesse
+an der Anwendungsentwicklung und Webdesign entwickelt. In diesem  Bereich verfüge ich derzeit noch über keine 
+praktische Erfahrungen, möchte jedoch erste Kenntnisse vertiefen und ausbauen.
+   </p>
+
+   <p>Als Arbeitserprobung habe ich eine eigene Website zu Bewerbungszwecken erstellt.
+Diese ist mit Unterstützung von ChatGPT entstanden.
+Dadürch konnte ich erste Einblicke in HTML, CSS und JavaScript gewinnen. Mein Ziel ist es, dieses Wissen weiter auszubauen. 
+   </p>
+
+   <p>Ich möchte mein Pflichtpraktikum gerne für 4 Wochen an Ihrem Standort in Rostock absolvieren,
+ um Praktische Erfahrungen zu sammeln und einen Einblick in Ihre Arbeitsweise zu erhalten.
+   </p> 
+   
+   <p>Über die Gelegenheit, mich persönlich bei Ihnen vorzustellen, freue ich mich sehr.
+   </p> 
+
+  <div class="anschreiben-signature">
+      <p>Mit freundlichen Grüßen</p>
+    <p><strong>Bianka Ahlf</strong></p>
+  </div>
+
+
+   <footer class="cv-footer">
+    <p>Rostock, <span id="date"></span></p>
+  </footer>
+   </section>
+   
+   <div class="actions">
+    <a href="sql-cv.html" class="btn secondary">Zum Lebenslauf</a>
+    <a href="#" onclick="window.print()"class="btn">Als PDF speichern</a>
+   </div>
+  </div>
+
+<script>
+  const dateEl =
+ document.getElementById("date");
+ 
+  const today =new Date();
+
+  const formatted =
+ today.toLocaleDateString("de-DE", {
+   day: "numeric",
+   month: "long",
+   year: "numeric"
+});
+
+ dateEl.textContent = formatted;
+</script>
+
+ </body>
+</html>
